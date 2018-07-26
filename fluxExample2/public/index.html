@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class=container>
+    <section class="container">
+        <h1>Taski</h1>
+    </section>
+    <section id=tasks></section>
+    <form class="form-inline" name="newTask">
+        <input type="text" class="form-control" name="newTaskName" placeholder="Dodaj nowy task">
+        <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+    <form name="undo">
+        <button type="submit" class="btn btn-secondary">Cofnij zmiane</button>
+    </form>
+    <section>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" id="showComplete" checked> Pokaż ukończone
+            </label>
+        </div>
+    </section>
+    <script src="assets/cpanel.bundle.js"></script>
+</body>
+</html>
